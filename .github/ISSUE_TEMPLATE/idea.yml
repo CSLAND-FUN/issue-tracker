@@ -1,0 +1,44 @@
+name: 💡 Предложить идею / Suggest an Idea
+description: Есть мысль, как сделать CSLAND.FUN лучше? Напишите нам!
+labels:
+  - enhancement
+title: "[IDEA] Короткое описание идеи / Short idea summary"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Идеи делают проект лучше ❤️  
+        Ideas make the project better ❤️
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: В чем суть идеи? / Idea summary
+      placeholder: Опишите простыми словами
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем это нужно? / Why is it needed?
+      description: Чем это поможет сайту или игрокам?
+    validations:
+      required: true
+
+  - type: textarea
+    id: who
+    attributes:
+      label: Кому это полезно? / Who benefits?
+      placeholder: Всем пользователям / новичкам / определенному разделу
+
+  - type: textarea
+    id: how
+    attributes:
+      label: Как вы это видите? / How do you see it?
+      description: Можно кратко 🙂
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Дополнительно / Extra
