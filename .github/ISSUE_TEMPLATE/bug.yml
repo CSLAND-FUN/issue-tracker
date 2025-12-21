@@ -1,5 +1,5 @@
-name: Сообщить о баге / Report a Bug
-description: Нашли проблему на CSLAND.FUN? Расскажите нам 🙂
+name: "🐞 Сообщить о баге / Report a Bug"
+description: "Нашли проблему на CSLAND.FUN? Расскажите нам 🙂"
 labels:
   - pending
 title: "[BUG] Краткое описание проблемы / Short description"
@@ -13,16 +13,16 @@ body:
   - type: textarea
     id: what
     attributes:
-      label: Что случилось? / What happened?
-      description: Опишите проблему простыми словами
-      placeholder: Например: открываю профиль — страница зависает
+      label: "Что случилось? / What happened?"
+      description: "Опишите проблему простыми словами"
+      placeholder: "Например: открываю профиль — страница зависает"
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Как повторить? / How to reproduce?
+      label: "Как повторить? / How to reproduce?"
       placeholder: |
         1. Открываю сайт
         2. Захожу в ...
@@ -34,20 +34,20 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Что ожидали? / Expected behavior
+      label: "Что ожидали? / Expected behavior"
     validations:
       required: true
 
   - type: input
     id: where
     attributes:
-      label: Где это произошло? / Where on site?
-      placeholder: Профиль / Магазин / Главная и т.д.
+      label: "Где это произошло? / Where on site?"
+      placeholder: "Профиль / Магазин / Главная и т.д."
 
   - type: dropdown
     id: device
     attributes:
-      label: Устройство / Device
+      label: "Устройство / Device"
       options:
         - ПК
         - Телефон
@@ -57,16 +57,16 @@ body:
   - type: input
     id: browser
     attributes:
-      label: Браузер / Browser
-      placeholder: Chrome / Firefox / Safari …
+      label: "Браузер / Browser"
+      placeholder: "Chrome / Firefox / Safari …"
 
   - type: textarea
     id: media
     attributes:
-      label: Скриншот или видео / Screenshot or video
-      description: Если можете — приложите ссылку
+      label: "Скриншот или видео / Screenshot or video"
+      description: "Если можете — приложите ссылку"
 
   - type: textarea
     id: more
     attributes:
-      label: Дополнительно / Extra
+      label: "Дополнительно / Extra"
