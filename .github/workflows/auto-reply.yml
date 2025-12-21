@@ -1,0 +1,17 @@
+name: Auto Reply
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send reply
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            Спасибо за обращение! ❤️  
+            Thank you for your report ❤️  
+            Мы посмотрим и ответим, как только сможем 🙂
