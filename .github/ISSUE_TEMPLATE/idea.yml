@@ -1,7 +1,7 @@
 name: 💡 Предложить идею / Suggest an Idea
 description: Есть мысль, как сделать CSLAND.FUN лучше? Напишите нам!
 labels:
-  - enhancement
+  - pending
 title: "[IDEA] Короткое описание идеи / Short idea summary"
 body:
   - type: markdown
