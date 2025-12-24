@@ -4,12 +4,6 @@ labels:
   - pending
 title: "[BUG] Краткое описание проблемы / Short description"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Спасибо, что помогаете улучшать CSLAND.FUN ❤️  
-        Thank you for helping improve CSLAND.FUN ❤️
-
   - type: textarea
     id: what
     attributes:
