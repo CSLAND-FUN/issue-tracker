@@ -4,12 +4,6 @@ labels:
   - pending
 title: "[IDEA] Короткое описание идеи / Short idea summary"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Идеи делают проект лучше ❤️  
-        Ideas make the project better ❤️
-
   - type: textarea
     id: idea
     attributes:
